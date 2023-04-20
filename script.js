@@ -19,7 +19,17 @@ $(function () {
         // console.log(data.optIn);
 
         $("#optIn").prop("checked", data.optIn);
+        $("#bcool").prop("checked", data.cool);
 
+
+        $('input[type=radio]').each(function () {
+          if (data.spaghet === $(this).val())
+          {
+            $(this).prop('checked', true)
+              console.log($(this));
+         }
+
+      });
 
         $.each(data, function (key, val) {
           //step through results
@@ -31,6 +41,7 @@ $(function () {
         });
 
       },
+      
     });
 
     // can we grab data from anohter website.

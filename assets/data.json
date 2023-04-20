@@ -2,5 +2,10 @@
     "email": "dlhart@hotmail.com",
     "fname": "David Liebe Hart",
     "uname": "corrinianLover68",
-    "optIn": false
+    "password": "Salame68!",
+    "optIn": false,
+    "cool": true, 
+    "lame": false,
+    "spaghet": "confused"
+
   }

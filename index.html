@@ -94,7 +94,7 @@
 
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label">Your Most Used Password:</label>
-          <input type="password" class="form-control pwd" placeholder="Your Most Common Password" style="width: 250px">
+          <input type="password" id="password" class="form-control pwd" placeholder="Your Most Common Password" style="width: 250px">
           <span class="input-group-btn">
             <button class="btn btn-default reveal" type="button"><i class="bi-eye-fill"></i></button>
           </span>
@@ -103,8 +103,8 @@
         <!-- checkboxes -->
 
         <p>Select your favorite activity (or activities):</p>
-        <input type='checkbox' name='bcool' value=''>
-        <label id='bcool1'>Being Cool</label><br>
+        <input type='checkbox' id='bcool' name='bcool' value=''>
+        <label for='bcool'>Being Cool</label><br>
         <input type='checkbox' name='blame' value=''>
         <label id='blame1'>Being Lame</label><br>
         <input type='checkbox' name='Coding' value=''>
@@ -113,9 +113,9 @@
 
         <!--radio-->
         <p>Choose the best answer:</p>
-        <input type='radio' name='five' value=''>I give my information to random websites.<br>
-        <input type='radio' name='ten' value=''>This is just a test, nobody is actually taking my information.<br>
-        <input type='radio' name='fifteen' value=''>I don't know what's going on.<br><br>
+        <input type='radio' name='five' value='give'>I give my information to random websites.<br>
+        <input type='radio' name='ten' value='not give'>This is just a test, nobody is actually taking my information.<br>
+        <input type='radio' name='fifteen' value='confused'>I don't know what's going on.<br><br>
 
         <!--submit information-->
         <div class="mb-3 mt-3">
