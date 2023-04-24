@@ -11,7 +11,7 @@ $(function () {
     console.log("button clicked: "); // find out who clicked me, w/this?
 
     $.ajax({
-      url: "../assets/data.json",
+      url: "https://github.com/mithrandiryeet/india_hello/blob/main/assets/data.json",
       dataType: "json",
       success: function (data) {
         // console.log(data.uname);
